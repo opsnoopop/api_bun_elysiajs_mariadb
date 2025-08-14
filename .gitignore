@@ -1,0 +1,4 @@
+mariadb/
+node_modules/
+k6/*.html
+sysbench_raw_*.txt
