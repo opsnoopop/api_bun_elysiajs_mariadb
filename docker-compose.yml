@@ -19,6 +19,7 @@ services:
   database:
     image: mariadb:lts-ubi9
     container_name: container_mariadb
+    restart: always
     environment:
       MARIADB_ROOT_PASSWORD: rootpass
       MARIADB_DATABASE: testdb
