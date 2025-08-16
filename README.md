@@ -9,7 +9,7 @@ A simple Bun Elysiajs API application and MariaDB, containerized with Docker.
 - OS Alpine Linux 3.20.6
 - Bun: 1.2.18
 - Elysiajs: 1.3.8 # bun create elysia app
-- Elysia-mariadb: 1.0.0 # bun add elysia-mariadb
+- mariadb: 3.4.5 # bun add mariadb
 
 **MySQL Container: FROM mariadb:lts-ubi9**
 - OS Red Hat Enterprise Linux: 9.6 (Plow)
