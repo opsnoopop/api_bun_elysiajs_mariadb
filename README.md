@@ -216,7 +216,7 @@ docker run \
 --network global_bun \
 -v ./k6/:/k6/ \
 grafana/k6:1.1.0 \
-run /k6/k6_bun_health_check.js
+run /k6/k6_health_check.js
 ```
 
 ### grafana/k6 test Insert Create user
@@ -228,7 +228,7 @@ docker run \
 --network global_bun \
 -v ./k6/:/k6/ \
 grafana/k6:1.1.0 \
-run /k6/k6_bun_create_user.js
+run /k6/k6_create_user.js
 ```
 
 ### grafana/k6 test Select Get user by id
@@ -240,7 +240,7 @@ docker run \
 --network global_bun \
 -v ./k6/:/k6/ \
 grafana/k6:1.1.0 \
-run /k6/k6_bun_get_user_by_id.js
+run /k6/k6_get_user_by_id.js
 ```
 
 ### check entrypoint grafana/k6

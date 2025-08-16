@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     image: oven/bun:1_alpine_custom
     container_name: container_bun
+    restart: always
     ports:
       - "3001:3000"
     depends_on:
