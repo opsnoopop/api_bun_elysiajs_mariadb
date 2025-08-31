@@ -1,0 +1,11 @@
+bash test1.sh
+sleep 30
+bash test2.sh
+sleep 30
+bash test3.sh
+sleep 30
+bash test4.sh
+sleep 30
+bash test5.sh
+sleep 30
+bash test6.sh

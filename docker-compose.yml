@@ -7,7 +7,7 @@ services:
     container_name: container_bun
     restart: always
     ports:
-      - "3001:3000"
+      - "3000:3000"
     depends_on:
       - database
     env_file:
