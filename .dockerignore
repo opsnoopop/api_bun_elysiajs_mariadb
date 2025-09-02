@@ -8,3 +8,5 @@ docker-compose.yml
 k6/
 node_modules/
 mariadb/
+mariadb_initdb/
+test*.sh

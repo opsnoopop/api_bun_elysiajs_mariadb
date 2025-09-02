@@ -14,14 +14,14 @@ export const options = {
       preAllocatedVUs: 5000, // สร้าง Virtual Users (VU) ล่วงหน้า 5000 ตัว
       maxVUs: 10000, // สร้าง Virtual Users (VU) สูงสุด 10000 ตัว
       stages: [
-        { duration: '10s', target: 2000 },
-        { duration: '10s', target: 4000 },
-        { duration: '10s', target: 6000 },
-        { duration: '10s', target: 8000 },
-        { duration: '10s', target: 10000 },
-        { duration: '10s', target: 0 },    // ramp-down
+        { duration: '5s', target: 2000 },
+        { duration: '5s', target: 4000 },
+        { duration: '5s', target: 6000 },
+        { duration: '5s', target: 8000 },
+        { duration: '5s', target: 10000 },
+        { duration: '5s', target: 0 },    // ramp-down
       ],
-      gracefulStop: '10s',
+      gracefulStop: '5s',
     },
   },
   thresholds: {

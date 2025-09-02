@@ -9,7 +9,7 @@ export const options = {
   scenarios: {
     constant: {
       executor: 'constant-arrival-rate', // ใช้ executor แบบ constant-arrival-rate: ยิง request ด้วยความเร็วคงที่
-      duration: '1m', // ระยะเวลาทดสอบ: 1 นาที
+      duration: '30s', // ระยะเวลาทดสอบ: 1 นาที
       rate: 10000, // อัตราการยิง request: 84 requests/วินาที อาจจะต้องหา Magic Number สำหรับทดสอบ
       timeUnit: '1s', // หน่วยเวลาของ rate: ต่อ 1 วินาที
       preAllocatedVUs: 10000, // สร้าง Virtual Users (VU) ล่วงหน้า

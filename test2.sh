@@ -7,7 +7,7 @@ docker run \
 grafana/k6:1.1.0 \
 run /k6/k6_2_ramping_create_user.js
 
-sleep 30
+sleep 10
 
 docker run \
 --name container_k6 \
@@ -18,7 +18,7 @@ docker run \
 grafana/k6:1.1.0 \
 run /k6/k6_2_ramping_create_user.js
 
-sleep 30
+sleep 10
 
 docker run \
 --name container_k6 \
