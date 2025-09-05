@@ -31,7 +31,7 @@ const app = new Elysia({ name: 'api' })
   .get('/', async () => {
     // optional: ping DB เพื่อเช็คสุขภาพระบบ
     await withConn((c) => c.ping())
-    return { message: 'Hello World from Bun' }
+    return { message: 'Hello World from Bun (ElysiaJS + MariaDB)' }
   })
 
   // POST /users -> create
